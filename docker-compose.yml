@@ -1,0 +1,8 @@
+version: "2"
+services:
+  terbium:
+    restart: unless-stopped
+    image: "ghcr.io/natant-network/website-aio-docker:main"
+    ports:
+    #IMPORTANT: DO NOT CHANGE THE 8080 PART ONLY CHANGE THE 90 PART
+      - 90:8080
