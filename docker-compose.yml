@@ -1,6 +1,6 @@
 version: "2"
 services:
-  terbium:
+  website-aio:
     restart: unless-stopped
     image: "ghcr.io/natant-network/website-aio-docker:main"
     ports:
